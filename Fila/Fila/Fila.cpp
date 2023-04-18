@@ -112,13 +112,7 @@ void insere()
 void remove()
 {
 
-	NO* novo = (NO*)malloc(sizeof(NO));
 	NO* del = inicio;
-	if (novo == NULL)
-	{
-		return;
-	}
-	novo->prox = NULL;
 
 	if (inicio == NULL)
 	{
@@ -152,3 +146,4 @@ void exibirElementos()
 		}
 	}
 }
+
